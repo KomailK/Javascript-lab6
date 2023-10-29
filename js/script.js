@@ -37,7 +37,7 @@ if (calculate !== null) {
     var numberStr = document.getElementById("numbers").value;
     console.log(numberStr); //Displaying the elements entered by the user
     if (numberStr.trim() === "") {
-      alert("Enter number separated by spaces");
+      alert("Enter numbers separated by spaces");
     } else {
       var numberArr = numberStr.trim().split(" "); //Creating an array in which       we have the elements entered by the user
       console.log(numberArr);
