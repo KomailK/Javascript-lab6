@@ -7,6 +7,11 @@ html {
   color: #EEA47F;
 }
 
+footer {
+  position: relative;
+  top: 80px;
+}
+
 /*Styling buttons */
 
 #send,
