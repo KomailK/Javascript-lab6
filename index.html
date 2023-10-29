@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="excel.html">Excel</a></li>
+        <li>
+          <div id="button-container">
+            <button class="buttoncolor" id="darkWhiteButton">Dark or White</button>
+            <button class="buttoncolor" id="blueRedButton">Blue or Red</button>
+            <button class="buttoncolor" id="DefaultColor">Default Color</button>
+
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!--Page 1 (Home Page) -->
+
+    <!-- Question 1) -->
+    <form id="main-form" name="mainform">
+      <br>
+      <label for="Fname">First Name :</label>
+      <input type="text" id="Fname" name="Fname">
+      <br>
+      <br>
+      <label for="Lname">Last Name :</label>
+      <input type="text" id="Lname" name="Lname" required>
+      <br>
+      <br>
+      <label for="email"> Email address :</label>
+      <input type="email" name="email" id="email" required>
+      <br>
+      <br>
+      <label for="address">Address :</label>
+      <input type="text" id="address" name="address" required>
+      <br>
+      <br>
+
+      <label for="city">City :</label>
+      <input type="text" id="city" name="city" required>
+      <br>
+      <br>
+
+      <label for="province">Province :</label>
+      <input type="text" name="province" id="province" required>
+      <br>
+      <br>
+      <label>Membership :</label><br>
+      <label for="premium">Premium Membership</label>
+      <input type="radio" id="premium" name="membership" value="Premium Membership" checked> <br>
+
+      <label for="standard">Standard Membership</label>
+      <input type="radio" id="standard" name="membership" value="Standard Membership"><br>
+
+      <label for="basic">Basic Membership</label>
+      <input type="radio" id="basic" name="membership" value="Basic Membership"><br>
+
+      <br>
+
+      <input type="button" value="Send" id="send">
+      <input type="reset" value="Cancel" id="cancel">
+
+
+    </form>
+    <div id="output">
+
+    </div>
+  </main>
+  <footer>
+
+    <p>
+      ILAC & EFREI - HTML, CSS, and JavaScript Assignment - Harish UDAYAKUMAR & Komail KASSIMALY
+    </p>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+  <meta charset=" UTF-8">
+  <title>Excel</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href=" index.html">Home</a></li>
+        <li><a href="excel.html">Excel</a></li>
+        <li>
+          <div id="button-container">
+            <button class="buttoncolor" id="darkWhiteButton">Dark or White</button>
+            <button class="buttoncolor" id="blueRedButton">Blue or Red</button>
+            <button class="buttoncolor" id="DefaultColor">Default Color</button>
+
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form id="main-form" name="mainform">
+
+      <!--Page 2 (Excel Page)-->
+
+      <!--Question 1),3),4)-->
+      <h2 id="title excel">Excel Functions</h2>
+      <label for="numbers">Enter your numbers separated by spaces:</label>
+      <input type="text" name="numbers" id="numbers"><br><br>
+      <label>Select your choice : </label><br><br>
+      <input type="radio" id="autoSum" name="operation" value="autoSum" checked>
+      <label for="autoSum">AutoSum</label><br>
+      <input type="radio" id="average" name="operation" value="average">
+      <label for="average">Average</label><br>
+      <input type="radio" id="max" name="operation" value="max">
+      <label for="max">Max</label><br>
+      <input type="radio" id="min" name="operation" value="min">
+      <label for="min">Min</label>
+      <br><br>
+      <input type="button" value="Calculate" id="calculate">
+
+    </form>
+    <div id="output2">
+
+    </div>
+  </main>
+  <footer>
+    <p>
+      ILAC & EFREI - HTML, CSS, and JavaScript Assignment - Harish UDAYAKUMAR & Komail KASSIMALY
+    </p>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
